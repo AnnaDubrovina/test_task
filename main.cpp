@@ -30,7 +30,6 @@ int main(int argc, const char * argv[]) {
     
     //cout<<"given str:"<<expression<<endl;
     
-    //calculateResult(expression);
     string rev =toReversePolska(expression);
     //cout<<"reverse polska="<<rev;
     string errStr;
@@ -40,8 +39,7 @@ int main(int argc, const char * argv[]) {
         cout<<"err:"<<errStr<<endl;
     else
     {
-        cout.precision(2);
-        cout<<"result: "<<res<<endl;
+        printf("result:%8.2f\n",res);
     }
     
     return 0;
